@@ -20,7 +20,7 @@ const Form = (props) => {
     event.preventDefault();
     console.log(addData);
     const newVideo = {
-      url: addData.url,
+      url: (addData.url).replace("watch?v=", "embed/"),
       title: addData.title,
     };
     let videos = [...video, newVideo];
