@@ -63,7 +63,7 @@ const Form = (props) => {
               name="url"
               onChange={ChangeHandler}
               value={addData.url}
-              placeholder="YouTube embed URL"
+              placeholder="YouTube URL"
             ></input>
           </div>
           <button className="btn btn-primary ml-2">Add</button>
